@@ -1,0 +1,150 @@
+
+*{
+    background-color: #f9eada;
+    margin: 0;
+    padding: 0;
+}
+/*導覽列*/
+.nav{
+    background-color: #efbb93;
+    margin-top: 10px;
+
+}
+.nav-list{
+    display: flex;
+    background-color: #efbb93;
+    margin: 0;
+    padding:0;
+    text-align: right;
+}
+.nav-sublist{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    display: none;
+
+ 
+}
+.nav-list-item{
+    list-style:none ;
+    margin-right: 5px;
+    background-color:  #efbb93;
+    color:#502301;  
+}
+
+.nav-list-item-link{
+    display: block;
+    background-color: #efbb93;
+    color: #705449;
+    text-decoration: none;
+    padding:15px 5px;
+    text-align: right;
+}
+.nav-list-item-link-top{
+    display: block;
+    background-color:#efbb93;
+    color: #705449;
+    text-decoration: none;
+    padding:15px 750px 15px 180px;
+
+}
+.nav-list-item-link1{
+    display: block;
+    background-color: #f9eada;
+    color: #705449;
+    text-decoration: none;
+    padding:15px 5px;
+    justify-content: center;
+}
+.nav-list-item:hover .nav-sublist{
+    display: block;
+}
+/*做hover*/
+.nav-list-item-link:hover{
+    color:#502301;
+}
+/*首圖*/
+.banner_container{
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 10px;
+}
+.shop_intro{
+    margin: 30px 20px 30px 180px;
+    display: flex;
+    width: 400px;
+    height:350px;
+    float: left;
+}
+.coffee_intro{
+    margin: 100px 180px 30px 20px;
+    display: flex;
+    width: 350px;
+    height:400px;
+    float: right;
+}
+.cats_intro{
+    margin: 100px 20px 30px 180px;
+    display: flex;
+    width: 400px;
+    height:380px;
+    float: left;
+}
+/*店家介紹*/
+.intro_title{
+    padding:15px;
+    margin: 25px 0px  10px  50px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.intro{
+    padding:15px;
+    margin: 5px 180px 20px 50px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449;
+    font-weight: bold;
+}
+.intro_title2{
+    padding:30px;
+    margin: 100px 50px 10px 200px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449;
+    font-size: 24px;
+    font-weight: bold;
+}
+.intro2{
+    padding:15px;
+    margin: 10px 50px 20px 220px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449;
+    font-weight: bold;
+}
+.intro_title3{
+    padding:30px;
+    margin: 100px 0px  10px  50px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449;
+    font-size: 24px;
+    font-weight: bold;
+}
+.intro3{
+    padding:15px;
+    margin: 15px 180px 20px 50px;
+    text-align: justify;
+    text-justify:inter-ideograph;
+    color:#705449; 
+    font-weight: bold;
+}
